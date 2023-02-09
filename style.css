@@ -1,0 +1,447 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+div{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex; 
+     justify-content: center; 
+     align-items: center;
+}
+.img1{
+    width: 35%;
+    /* margin-left: -400px; */
+    margin-top: 10px;
+}
+.inp1{
+width: 45%;
+margin-left: 100px;
+padding: 20px 30px;
+border-radius: 5px;
+border: 1px solid gray;
+background: rgb(229, 228, 228);
+margin-top: 10px;
+}
+#i1{
+    margin-left: -35px;
+    position: relative;
+    top: 5px;
+    color: rgb(129, 127, 127);
+    /* border: 1px solid black; */
+    font-size: 27px;
+    /* background-color: gray; */
+}
+#i1:hover{
+    color: #000;
+    cursor: pointer;
+}
+.a1{
+    /* background-color: aquamarine; */
+    width: 25%;
+    text-decoration: none;
+    margin-left: 200px;
+    color: rgb(108, 105, 105);
+}
+.a1:hover{
+    text-decoration: underline;
+    color: rgb(7, 1, 113);
+}
+.a2{
+    /* background-color: aqua; */
+    width: 15%;
+    text-decoration: none;
+    margin-left: 50px;
+    color: rgb(108, 105, 105);
+}
+.a2:hover{
+    text-decoration: underline;
+    color: rgb(7, 1, 113);
+}
+.div1{
+    width: 100%;
+  background-color: rgb(206, 204, 204);
+  /* height: px; */
+  margin-top: 20px;
+}
+.div2{
+    /* width: 100%; */
+    color: rgb(124, 124, 124);
+    width: 150px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.div2:hover{
+    color: rgb(2, 2, 113);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.i2{
+    width: 40px;
+    margin-left: 55px;
+}
+.i3{
+    width: 60px;
+    margin-left: 45px;
+}
+.i4{
+    width: 45px;
+    margin-left: 55px;
+}
+.div3{
+    width: 100%;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.a4{
+    color: aliceblue;
+    text-decoration: none;
+}
+.a4:hover{
+    color: antiquewhite;
+    text-decoration: underline;
+}
+.p1{
+    position: absolute;
+    /* line-height: rem; */
+    left: 850px;
+    top: 500px;
+    font-size: 40px;
+    font-weight: bolder;
+   /* font-family: Arial, Helvetica, sans-serif; */
+}
+.s1{
+    position: absolute;
+    /* line-height: rem; */
+    left: 170px;
+    /* top: 500px; */
+    font-size: 40px;
+    font-weight: bolder;
+   /* font-family: Arial, Helvetica, sans-serif; */
+
+}
+.b1{
+    position: absolute;
+    left: 1030px;
+    top: 610px;
+    border: 1px solid black;
+    background-color: white;
+    color: #000;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.b1:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+.div6{
+    /* background-color: aqua; */
+    margin-top: 40px;
+}
+.p2{
+    position: absolute;
+    left: 800px;
+    font-size: 40px;
+    /* font-weight: bolder; */
+}
+.s2{
+    margin-left: 50px;
+}
+.a3{
+    position: absolute;
+    left: 980px;
+    /* top: 610px; */
+    text-decoration: none;
+    margin-top: 150px;
+    border: 1px solid black;
+    /* background-color: white; */
+    opacity: 1;
+    color: #000;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.a3:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+.a7{
+    text-decoration: none;
+    position: absolute;
+    left: 980px;
+    /* top: 610px; */
+    margin-top: 150px;
+    border: 1px solid black;
+    /* background-color: white; */
+    opacity: 1;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.a7:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s;
+}
+.a5{
+position: absolute;
+left: 400px;
+/* top: 610px; */
+margin-top: 150px;
+border: 1px solid black;
+/* background-color: white; */
+opacity: 1;
+color: #fff;
+font-weight: bold;
+font-size: 17px;
+padding: 15px;
+cursor: pointer;
+transition: 0.3s;
+text-decoration: none;
+}
+.a5:hover{
+background-color: #000;
+color: #fff;
+transition: 0.3s;
+}
+.p3{
+    position: absolute;
+    left: 300px;
+    font-size: 40px;
+    /* font-weight: bolder; */
+}
+.a6{
+    position: absolute;
+left: 350px;
+/* top: 610px; */
+margin-top: 150px;
+border: 1px solid black;
+/* background-color: white; */
+opacity: 1;
+color: #000;
+font-weight: bold;
+font-size: 17px;
+text-decoration: none;
+padding: 15px;
+cursor: pointer;
+transition: 0.3s;
+}
+.a6:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 0.3s;
+}
+.p6{
+    font-size: 50px;
+    margin-top: 30px;
+    line-height: 1.3em;
+}
+.s3{
+    margin-left: -35px;
+}
+.s4{
+    margin-left: 350px;
+}
+.b3{
+   margin-left: 20px;
+    border: 1px solid black;
+    background-color: white;
+    color: #000;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 13px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.b3:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+.p7{
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+}
+.div7{
+    padding-left: 30px;
+    /* background-color: aqua; */
+    width: 17%;
+    display: inline-block;
+    margin-left: 10px;
+}
+.img4{
+    position: relative;
+    /* right: 500px; */
+    /* background-color: brown; */
+}
+.p8,.p9,.p10,.p11{
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    margin-left: 95px;
+    margin-top: 210px;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+.p8:hover,.p9:hover,.p10:hover,.p11:hover,.p12:hover,
+.p13:hover,.p14:hover,.p15:hover,.p16:hover,.p17:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+.div8{
+    /* background-color: aqua; */
+    width: 29%;
+    display:inline-block;
+    margin-left: 60px;
+}
+.p12,.p13,.p14{
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    margin-left: 220px;
+    margin-top: 280px;
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+.img6{
+    margin-top: 80px;
+}
+.p15,.p16,.p17{
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    margin-left: 210px;
+    margin-top: 360px;
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+
+/* Footer work */
+
+.container3{
+  width: 100%;
+  height: 350px;
+  background-color: rgb(89, 112, 87);
+ margin-top: 70px;
+}
+.img10{
+    /* background-color: aqua; */
+    margin-left: 180px;
+    margin-top: -190px;
+    width: 100%;
+    height: 100px;
+}
+.gmu{
+    background-color: orange;
+    padding: 19px 29px;
+    font-size: 18px;
+    border: none;
+    color:#fff;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    margin-left: 100px;
+    border-radius: 3px;
+}
+.gmu:hover{
+    background-color: rgb(219, 144, 4);
+}
+.a9{
+    position: absolute;
+    left: 0;
+  margin-top: 255px;
+  margin-left: 130px;
+  text-decoration: none;
+  font-size: 18px;
+  color: whitesmoke;
+}
+.a9:hover{
+    text-decoration: underline;
+}
+.a10{
+    position: absolute;
+    left: 0;
+  margin-top: 252px;
+  margin-left: 110px;
+  text-decoration: none;
+  font-size: 18px;
+  color: whitesmoke;
+}
+.p{
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.ul1{
+    letter-spacing: 1px;
+    position: absolute;
+    left: 0;
+    margin-left: 500px;
+    line-height: 2em;
+    list-style-type: none;
+    font-size: 15px;
+}
+ul,a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    text-decoration: underline;
+}
+.ul2{
+    letter-spacing: 1px;
+    position: absolute;
+    left: 0;
+    margin-left: 800px;
+    margin-top: -50px;
+    line-height: 2em;
+    list-style-type: none;
+    font-size: 15px;
+}
+.ul3{
+    letter-spacing: 1px;
+    position: absolute;
+    left: 0;
+    margin-left: 1200px;
+    margin-top: -100px;
+    line-height: 2em;
+    list-style-type: none;
+    font-size: 15px;
+}
+.div11{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 300px;
+}
+.c2022{
+    position: absolute;
+    margin-top: 330px;
+    /* font-size: 1vmax; */
+    font-size: 24px;
+    color: whitesmoke;
+}
